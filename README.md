@@ -16,6 +16,6 @@ For my final year project.
 ### Credits:
 
 * Initial map image provided by Jens Meyer and altered by Steve Albers.
-* Special thanks to Corvy who provided technical advice.
+* Special thanks to Corvy.
 
 
