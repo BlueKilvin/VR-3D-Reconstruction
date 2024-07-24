@@ -1,5 +1,3 @@
-import { VRButton } from 'three/addons/webxr/VRButton.js';
-
 (function () {
     'use strict';
 
@@ -104,7 +102,6 @@ import { VRButton } from 'three/addons/webxr/VRButton.js';
             preserveDrawingBuffer: true
         });
 
-        renderer.xr.enabled = true;
         renderer.setClearColor(0x000000, 1);
         renderer.setSize(window.innerWidth, window.innerHeight);
         container.appendChild(renderer.domElement);
@@ -249,8 +246,6 @@ import { VRButton } from 'three/addons/webxr/VRButton.js';
     }
 
     /** Window load event kicks off execution */
-    document.body.appendChild( VRButton.createButton( renderer ) );
-
     window.addEventListener('load', onWindowLoaded, false);
     window.addEventListener('resize', onWindowResize, false);
     document.addEventListener('keydown', onDocumentKeyDown, false);

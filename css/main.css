@@ -7,7 +7,7 @@ body {
 }
 
 a {
-    color: #d00;
+    color: rgb(184, 26, 216);
     text-decoration: none;
     font-weight: bold;
 }
@@ -28,10 +28,10 @@ div#hud > div.hud-panel.top-left {
     text-align: left;
 }
 
-div#hud > div.hud-panel.top-right {
+div#hud > div.hud-panel.top-center {
     top: 0px;
-    right: 0px;
-    text-align: right;
+    right: 800px;
+    text-align: center;
 }
 
 div#hud > div.hud-panel.bottom-left {
