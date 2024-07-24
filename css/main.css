@@ -1,5 +1,7 @@
 body {
     overflow: hidden;
+    font-family: monospace;
+    font-size: large;
     padding: 0px;
     margin: 0px;
     color: #fff;
@@ -17,6 +19,12 @@ a:hover {
     text-decoration: underline;
 }
 
+h3 {
+    color: rgb(184, 26, 216);
+    text-decoration: none;
+    font-weight: bold;
+}
+
 div#hud > div.hud-panel {
     position: absolute;
     padding: 5px;
@@ -28,6 +36,12 @@ div#hud > div.hud-panel.top-left {
     text-align: left;
 }
 
+div#hud > div.hud-panel.top-right {
+    top: 0px;
+    right: 10px;
+    text-align: right;
+}
+
 div#hud > div.hud-panel.top-center {
     top: 0px;
     right: 800px;
@@ -35,8 +49,8 @@ div#hud > div.hud-panel.top-center {
 }
 
 div#hud > div.hud-panel.bottom-left {
-    bottom: 0px;
-    left: 0px;
+    bottom: 10px;
+    left: 10px;
     text-align: left;
 }
 

@@ -4,7 +4,7 @@ A 3D reconstruction of the Moon with VR capabilities written in JavaScript.
 
 For my final year project.
 
-Live demo [here](https://bluekilvin.github.io/VR-3D-Reconstruction/)
+Live demo [here](https://bluekilvin.github.io/VR-3D-Reconstruction/).
 
 ---
 
